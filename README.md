@@ -45,7 +45,7 @@ In HTML, both the id and class attributes are used to specify attributes for ele
 The id attribute is used to uniquely identify a single HTML element on a web page. Each id value within a page must be unique; no two elements should share the same id.  
 It is often used when you want to select and manipulate a specific element using JavaScript or when you need to create anchor links that jump to a particular element on the page.  
 
-*2)*class Attribute:  
+*2)* class Attribute:  
 
 The class attribute is used to assign one or more class names to an HTML element. Multiple elements on a page can share the same class name.  
 It is typically used for styling purposes with CSS or for selecting and applying styles to groups of elements using JavaScript.  
