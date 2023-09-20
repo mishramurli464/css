@@ -3,7 +3,7 @@ CSS, which stands for Cascading Style Sheets, is a stylesheet language used to d
 the web page will look so basic without css or style sheet  
 css is a optional converts off loking HTML into a  beautiful and responsive website  
 *basic example of css*
-**HTML(index.html)**
+HTML(index.html)
 ```html
 <!DOCTYPE html>
 <html>
@@ -17,7 +17,7 @@ css is a optional converts off loking HTML into a  beautiful and responsive webs
 </body>
 </html>
 ```
-**CSS(styles.css)**
+CSS(styles.css)
 ```css
 /* This is a CSS comment */
 h1 {
