@@ -95,7 +95,7 @@ Example: .highlight selects all elements with class="highlight".
 Selects a single element by its id attribute.  
 Example: #main-content selects the element with id="main-content".  
 
-4) Descendant Selector:    
+4) Descendant Selector:  
 
 Selects an element that is a descendant of another element.  
 Example: ul li selects all <li> elements that are descendants of a <ul>.  
