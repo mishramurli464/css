@@ -81,17 +81,14 @@ In this example, we have a <div> element with an id of "unique-div" and a class 
 CSS selectors are patterns used to select and style HTML elements within a web page.  
 
 1) Element Selector:  
-
 Selects HTML elements by their name (tag).  
 Example: p selects all <p> elements on the page.  
 
 2) Class Selector:   
-
 Selects elements by their class attribute.  
 Example: .highlight selects all elements with class="highlight".  
 
 3) ID Selector:    
-
 Selects a single element by its id attribute.  
 Example: #main-content selects the element with id="main-content".  
 
@@ -116,6 +113,54 @@ Selects and styles a part of an element's content.
 
 10) Universal Selector:    
 Selects all elements on the page.  
-Example: * selects all elements.  
+Example: * selects all elements.
+
+```css
+/* Element Selector */
+p {
+    color: blue;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+}
+
+/* ID Selector */
+#header {
+    font-size: 24px;
+}
+
+/* Descendant Selector */
+article p {
+    font-style: italic;
+}
+
+/* Child Selector */
+ul > li {
+    list-style: square;
+}
+
+/* Attribute Selector */
+input[type="checkbox"] {
+    border: 1px solid #ccc;
+}
+
+/* Pseudo-Class Selector */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pseudo-Element Selector */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+```
 
 
