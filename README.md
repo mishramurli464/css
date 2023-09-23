@@ -36,9 +36,9 @@ p {
 }
 ```
 --In this example, we have an HTML document (index.html) and a separate CSS file (styles.css) linked to it.  
-##DOM
+## DOM
 The DOM, or Document Object Model, is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content dynamically.    
-##html id and class atributes  
+## html id and class atributes  
 In HTML, both the id and class attributes are used to specify attributes for elements, but they serve different purposes and have distinct characteristics:  
 *1)* id Attribute:  
 
@@ -75,5 +75,59 @@ CSS:
 }
 ```
 In this example, we have a <div> element with an id of "unique-div" and a class of "highlighted-box." We apply specific styles to the element with the id and shared styles to all elements with the class, demonstrating how id and class attributes can be used together in HTML and CSS.  
+
+
+## CSS selectors
+CSS selectors are patterns used to select and style HTML elements within a web page.  
+
+1) Element Selector:  
+
+Selects HTML elements by their name (tag).  
+Example: p selects all <p> elements on the page.  
+
+2) Class Selector:   
+
+Selects elements by their class attribute.  
+Example: .highlight selects all elements with class="highlight".  
+
+3) ID Selector:    
+
+Selects a single element by its id attribute.  
+Example: #main-content selects the element with id="main-content".  
+
+4) Descendant Selector:    
+
+Selects an element that is a descendant of another element.  
+Example: ul li selects all <li> elements that are descendants of a <ul>.  
+
+5) Child Selector:  
+
+Selects an element that is a direct child of another element.  
+Example: ul > li selects all <li> elements that are direct children of a <ul>.  
+
+6) Adjacent Sibling Selector:  
+
+Selects an element that is immediately preceded by another element.  
+Example: h2 + p selects the <p> element that comes immediately after an <h2>.  
+
+7) Attribute Selector:  
+
+Selects elements based on their attributes and attribute values.  
+Example: [type="text"] selects all elements with type="text".  
+
+8) Pseudo-Class Selector:  
+
+Selects elements based on their state or position.  
+Example: a:hover selects links that are being hovered over.  
+
+9) Pseudo-Element Selector:  
+
+Selects and styles a part of an element's content.  
+Example: p::first-line selects and styles the first line of a <p> element.  
+
+10) Universal Selector:    
+
+Selects all elements on the page.  
+Example: * selects all elements.  
 
 
