@@ -50,4 +50,30 @@ It is often used when you want to select and manipulate a specific element using
 The class attribute is used to assign one or more class names to an HTML element. Multiple elements on a page can share the same class name.  
 It is typically used for styling purposes with CSS or for selecting and applying styles to groups of elements using JavaScript.  
 You can apply the same class to multiple elements, allowing you to style or manipulate them collectively.  
-Class names can contain letters, numbers, hyphens, and underscore  
+Class names can contain letters, numbers, hyphens, and underscore    
+
+Here's an example of using both id and class attributes with CSS:   
+
+HTML  
+```html
+<div id="unique-div" class="highlighted-box">
+    <p>This is a unique div with a class.</p>
+</div>
+<div class="highlighted-box">
+    <p>This is another div with the same class.</p>
+</div>
+```
+CSS:
+```css
+#unique-div {
+    background-color: lightblue;
+}
+
+.highlighted-box {
+    border: 2px solid orange;
+    padding: 10px;
+}
+```
+In this example, we have a <div> element with an id of "unique-div" and a class of "highlighted-box." We apply specific styles to the element with the id and shared styles to all elements with the class, demonstrating how id and class attributes can be used together in HTML and CSS.  
+
+
