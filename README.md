@@ -96,37 +96,25 @@ Selects a single element by its id attribute.
 Example: #main-content selects the element with id="main-content".  
 
 4) Descendant Selector:  
-
 Selects an element that is a descendant of another element.  
-Example: ul li selects all <li> elements that are descendants of a <ul>.  
 
 5) Child Selector:  
-
 Selects an element that is a direct child of another element.  
-Example: ul > li selects all <li> elements that are direct children of a <ul>.  
-
+  
 6) Adjacent Sibling Selector:  
 
-Selects an element that is immediately preceded by another element.  
-Example: h2 + p selects the <p> element that comes immediately after an <h2>.  
+Selects an element that is immediately preceded by another element.    
 
 7) Attribute Selector:  
-
 Selects elements based on their attributes and attribute values.  
-Example: [type="text"] selects all elements with type="text".  
-
+ 
 8) Pseudo-Class Selector:  
-
 Selects elements based on their state or position.  
-Example: a:hover selects links that are being hovered over.  
-
+  
 9) Pseudo-Element Selector:  
-
-Selects and styles a part of an element's content.  
-Example: p::first-line selects and styles the first line of a <p> element.  
+Selects and styles a part of an element's content.     
 
 10) Universal Selector:    
-
 Selects all elements on the page.  
 Example: * selects all elements.  
 
